@@ -121,5 +121,6 @@ Do you have to do anything else to ensure that this I/O privilege setting is sav
 
 ### BUG
 
-1. lib/exit.c中不注释掉close_all就会time out
+1. lib/exit.c中不注释掉close_all就会time out -> pull之后解决
 2. start the shell : TIMEOUT
+
